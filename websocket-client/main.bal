@@ -7,5 +7,5 @@ public function main() returns error? {
    check wsClient->writeMessage("Test Message");
 
    string textResp = check wsClient->readMessage();
-   io:println(textResp);
+   io:println("Message from Client" + textResp);
 }
