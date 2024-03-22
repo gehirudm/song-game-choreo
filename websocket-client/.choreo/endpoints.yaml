@@ -1,0 +1,7 @@
+version: 0.1
+
+endpoints:
+- name: Websocket Server Endpoint
+  port: 9090
+  type: TCP
+  networkVisibility: Public
