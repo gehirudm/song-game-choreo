@@ -14,3 +14,7 @@ service class WsService {
         check caller->writeTextMessage(data);
     }
 }
+
+public function main() {
+    io:println("Starting Websocket server on 127.0.0.1:9090");
+}
