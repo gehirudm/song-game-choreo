@@ -15,7 +15,7 @@ RUN addgroup -S -g ${USER_GROUP_ID} ${USER_GROUP} \
 
 WORKDIR ${USER_HOME}
 
-USER ${USER_ID}
+USER 10014
 
 COPY --chown=${USER}:${USER_GROUP} . .
 
