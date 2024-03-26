@@ -4,4 +4,4 @@ endpoints:
 - name: Websocket Server Endpoint
   port: 9090
   type: TCP
-  networkVisibility: Project
+  networkVisibility: Organization
