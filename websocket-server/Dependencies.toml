@@ -85,6 +85,10 @@ dependencies = [
 	{org = "ballerina", name = "time"},
 	{org = "ballerina", name = "url"}
 ]
+modules = [
+	{org = "ballerina", packageName = "http", moduleName = "http"},
+	{org = "ballerina", packageName = "http", moduleName = "http.httpscerr"}
+]
 
 [[package]]
 org = "ballerina"
@@ -307,6 +311,7 @@ org = "gcpaccount123"
 name = "websocket_server"
 version = "0.1.0"
 dependencies = [
+	{org = "ballerina", name = "http"},
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "websocket"},
 	{org = "ballerinai", name = "observe"}
